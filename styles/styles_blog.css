@@ -1,0 +1,56 @@
+.position_center {
+	background-image: url("../bg1.jpg");
+	background-position: center 0;
+	background-size: cover;
+	padding: 80px;
+	text-align: center;
+	color: lightgreen;
+	font-size: 70px;
+	font:bold;
+}
+.navigate {
+	float: center;
+	background-color: lightgreen;
+    padding-top:15px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.article {
+	padding-bottom:400px;
+	padding-top: 25px;
+	color: black;
+	font-size: 25px;
+	font:bold;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	width: 100%;
+}
+
+.article:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+table, th, td {
+    border: 1px solid white;
+	border-collapse: collapse;
+}
+
+.bottompage{
+	position:relative;
+	padding-bottom: 10px;
+	padding-top: 25px;
+	color: gray;
+}
+
+audio {
+	padding-left:900px;
+}
+
+.blog_title{
+	
+}
+
+.tag_blog{
+	color: grey;
+}
