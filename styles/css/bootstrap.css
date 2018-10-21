@@ -3921,11 +3921,34 @@ input[type="button"].btn-block {
     display: block;
 }
 
-.nav-tabs .nav-content a:hover {background-color: #f1f1f1}
+.nav-tabs .nav-content a:hover {background-color: #f1f1f1;}
 
 .nav-tabs:hover .nav-content{
 	display: block;
 }
+
+.nav-tabs .nav-content .sub-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.nav-tabs .nav-content .sub-content a{
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-tabs .nav-content .sub-content a:hover {background-color: #f1f1f1;}
+
+.nav-tabs:hover .nav-content .sub-content{
+	display: block;
+}
+
+
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
   border-color: #e9ecef #e9ecef #dee2e6;
