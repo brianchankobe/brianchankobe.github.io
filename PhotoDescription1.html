@@ -37,7 +37,7 @@
 <body>
 	<div class="navigate">
 	  	<ul class="nav nav-tabs">
-		  	<li class="nav-item"> <a class="nav-link inactive" href="index.html">Home Page</a></li>
+		  	<li class="nav-item"> <a class="nav-link inactive" href="index.html">Home</a></li>
 	  	</ul>
   	  	<ul class="nav nav-tabs">	  
 		  	<li class="nav-item">
@@ -132,51 +132,7 @@
 		</audio>
 	</div>
 	
-    <script>
-
-            function setCarousel() {
-
-              var slider = $('.img-slider');
-
-              if (slider.hasClass('slick-initialized')) {
-                slider.slick('destroy');
-              }
-
-              if($(window).width() > 991){
-                  // Slick carousel
-                  slider.slick({
-                    dots: true,
-                    infinite: true,
-                    slidesToShow: 4,
-                    slidesToScroll: 1
-                  });
-                }
-                else {
-                 slider.slick({
-                  dots: true,
-                  infinite: true,
-                  slidesToShow: 2,
-                  slidesToScroll: 1
-                });
-               }
-             }
-
-             $(document).ready(function(){
-
-              setCarousel();
-              $('.img-slider').magnificPopup({
-                delegate: 'a', // child items selector, by clicking on it popup will open
-                type: 'image'
-                // other options
-
-              });
-
-              $(window).resize(function() {
-                setCarousel();
-              });
-            });
-
-     </script>
+    
 	
 </body>
 </html>
