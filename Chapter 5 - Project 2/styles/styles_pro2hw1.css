@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+#secondaryMenu{
+	background-color: white;
+}
+
+
+#inner-contact{
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+
+#font1, #font2, #font3{
+	background-color: darkblue;
+	color: white; 
+}
+
