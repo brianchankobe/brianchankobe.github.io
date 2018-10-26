@@ -1,10 +1,10 @@
 function isBlank(inputField) {
-    if (inputField.type === "checkbox") {
+    if (inputField.type == "checkbox") {
 		if(inputField.checked)
 	    	return false;
 		return true;
     }
-    if (inputField.value === "" ) {
+    if (inputField.value == "" ) {
 		return true;
     }
     return false;
