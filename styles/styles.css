@@ -7,6 +7,7 @@
 	color: lightgreen;
 	font-size: 70px;
 	font:bold;
+	color:#04EFCA
 }
 
 .navigate {
@@ -19,6 +20,15 @@
 	padding-right: 10px;
 }
 
+.navigate_weather{
+	position: relative;
+	float: center;
+	background-color: #39005F;
+    padding-top:15px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
 
 .container {
     padding-top:15px;
